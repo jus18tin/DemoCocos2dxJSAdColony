@@ -1,0 +1,71 @@
+{
+    "android": {
+        "AdColony": {
+            "debug": true, 
+            "id": "app185a7e71e1714831a49ec7", 
+            "ads": {
+                "v4vc": {
+                    "v4vc": true, 
+                    "pre_popup": true, 
+                    "zone": "vz1fd5a8b2bf6841a0a4b826", 
+                    "post_popup": true
+                }, 
+                "video": {
+                    "v4vc": false, 
+                    "zone": "vz06e8c32a037749699e7050"
+                }
+            }
+        }, 
+        "iap": {
+            "items": {
+                "remove_ads": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non1"
+                }, 
+                "coin_package": {
+                    "id": "com.cocos2dx.plugintest2"
+                }, 
+                "double_coin": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non2"
+                }, 
+                "coin_package2": {
+                    "id": "com.cocos2dx.plugintest3"
+                }
+            }, 
+            "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq7eIGu7dRcBRBSC05cYvxjBMd7cqq9w6++1er+cqO2tyWPtWB4vuTkliq4k/Fkylx5UMfptdOYOW8ENgQyVucs/NyuOAGmve4j5JFhLPcLa6LjO2HUSY6zk04DRR9Zw7YPET4WAezZTz8jYMGhPG08HYltVj8cmSpSFWd1nI0pGOJoLQIMkIkXplgnPQRbMpuOu70vnQQBS1RFcoFT7OjaV8U0cfJzMoS1TMkGqaJKks2T+qOBNTtkXzge92EnvYIkhpCfN98dj6aQmETNp5yj5Fa+jcbAVF8dy5xymJwioL89XQKfKkGR+P6ESMoBEPfIZYIlMU8EUwmC+UKGLujQIDAQAB"
+        }
+    }, 
+    "ios": {
+        "AdColony": {
+            "debug": true, 
+            "id": "appbdee68ae27024084bb334a", 
+            "ads": {
+                "v4vc": {
+                    "v4vc": true, 
+                    "pre_popup": true, 
+                    "zone": "vzf8e4e97704c4445c87504e", 
+                    "post_popup": true
+                }
+            }
+        }, 
+        "iap": {
+            "items": {
+                "remove_ads": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non1"
+                }, 
+                "coin_package": {
+                    "id": "com.cocos2dx.plugintest2"
+                }, 
+                "double_coin": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non2"
+                }, 
+                "coin_package2": {
+                    "id": "com.cocos2dx.plugintest3"
+                }
+            }
+        }
+    }
+}
